@@ -1,0 +1,107 @@
+@import url('https://fonts.cdnfonts.com/css/digital-7-mono');
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    margin: 2px;
+    border-radius: 5px;
+    caret-color: transparent;
+}
+.calc-container{
+    height: 600px;
+    width: 500px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    flex: 0 1 500px;
+    flex-direction: column;
+    border: 2px solid black;
+    background-color: #EAEAEA;	
+}
+
+#calc-display{
+    flex: 0 1 100px;
+    width: 456px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin: 20px 5px 10px 5px;
+    padding: 0px 10px;
+    height: auto;
+    display: flex;
+    border: 2px solid black;
+    background-color: #DDE4CC;
+    font-family: 'Digital-7 Mono', sans-serif;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 64px;
+    font-weight: 900;
+    color: #333333;
+}
+
+.calc-buttons{
+    display: flex;
+    flex: 0 1 50px;
+    flex-direction: column;
+}
+
+.btn-row{
+    display: flex;
+    flex: 0 1 auto;
+}
+
+.btn{
+    height: 80px;
+    width: 115px;
+    font-size: 24px;
+    font-weight: 900;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.number{
+    background-color: #007FFF;
+    color: #F0F0F0	;
+}
+
+.sign{
+    color: #007FFF;
+    background-color: #F0F0F0;
+}
+
+.btn-double{
+    height: 80px;
+    width: 235px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    border: 1px solid black;
+    background-color: #FF7F00;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.operation{
+    background-color: #FF7F00;
+    color: white;
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+.btn-double:active {
+    transform: scale(0.9);
+}
